@@ -3,17 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		044EA8F325D9698000739ECA /* SwiftUILib.WrapStack in Frameworks */ = {isa = PBXBuildFile; productRef = 044EA8F225D9698000739ECA /* SwiftUILib.WrapStack */; };
 		044EA8FD25D9792F00739ECA /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044EA8FC25D9792F00739ECA /* ExerciseView.swift */; };
 		0457345D25DAB09300A8C64D /* HostingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457345B25DAB09300A8C64D /* HostingTableViewCell.swift */; };
 		0457345E25DAB09300A8C64D /* HostingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0457345C25DAB09300A8C64D /* HostingTableViewCell.xib */; };
 		0457346325DABD1F00A8C64D /* RestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457346225DABD1F00A8C64D /* RestViewController.swift */; };
 		0457346625DAC18100A8C64D /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457346525DAC18100A8C64D /* TimerViewController.swift */; };
-		0457346A25DAC79400A8C64D /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 0457346925DAC79400A8C64D /* PartialSheet */; };
 		04E5B8C525D8167500162261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5B8C425D8167500162261 /* AppDelegate.swift */; };
 		04E5B8C725D8167500162261 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5B8C625D8167500162261 /* SceneDelegate.swift */; };
 		04E5B8C925D8167500162261 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E5B8C825D8167500162261 /* DayViewController.swift */; };
@@ -57,8 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0457346A25DAC79400A8C64D /* PartialSheet in Frameworks */,
-				044EA8F325D9698000739ECA /* SwiftUILib.WrapStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +144,6 @@
 			);
 			name = FitnessApp;
 			packageProductDependencies = (
-				044EA8F225D9698000739ECA /* SwiftUILib.WrapStack */,
-				0457346925DAC79400A8C64D /* PartialSheet */,
 			);
 			productName = FitnessApp;
 			productReference = 04E5B8C125D8167400162261 /* FitnessApp.app */;
@@ -179,8 +173,6 @@
 			);
 			mainGroup = 04E5B8B825D8167400162261;
 			packageReferences = (
-				044EA8F125D9698000739ECA /* XCRemoteSwiftPackageReference "wrap-stack" */,
-				0457346825DAC79400A8C64D /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = 04E5B8C225D8167400162261 /* Products */;
 			projectDirPath = "";
@@ -427,38 +419,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		044EA8F125D9698000739ECA /* XCRemoteSwiftPackageReference "wrap-stack" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/swiftuilib/wrap-stack.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		0457346825DAC79400A8C64D /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.11;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		044EA8F225D9698000739ECA /* SwiftUILib.WrapStack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 044EA8F125D9698000739ECA /* XCRemoteSwiftPackageReference "wrap-stack" */;
-			productName = SwiftUILib.WrapStack;
-		};
-		0457346925DAC79400A8C64D /* PartialSheet */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 0457346825DAC79400A8C64D /* XCRemoteSwiftPackageReference "PartialSheet" */;
-			productName = PartialSheet;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04E5B8B925D8167400162261 /* Project object */;
 }
