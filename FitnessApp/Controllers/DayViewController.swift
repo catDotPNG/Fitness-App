@@ -74,8 +74,6 @@ extension DayViewController {
             WorkoutDay(name: K.DaysOfWeek.friday, exercises: nil),
             WorkoutDay(name: K.DaysOfWeek.saturday, exercises: nil)
         ]
-        
-        //print("Loaded \(days.count) days.")
         return days
     }
 }
